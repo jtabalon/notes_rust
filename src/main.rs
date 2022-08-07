@@ -10,5 +10,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         std::process::exit(code: 1);
     }
 
+    let note = args[1].clone();
+
     Ok(())
 }
